@@ -1,0 +1,27 @@
+{
+  "name": "@jdthornton/useeventlistener",
+  "version": "1.0.5",
+  "description": "React event listener hook",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Jake Thornton",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@jdthornton/usecallbackref": "^1.0.2"
+  },
+  "files": [
+    "/dist",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdthornton/useeventlistener.git"
+  }
+}
